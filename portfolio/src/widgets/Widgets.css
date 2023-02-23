@@ -1,0 +1,25 @@
+
+.widget-wrapper{
+    width: 6.25rem;
+    height: 8rem;
+    font-size: 1.5rem;
+    /* display: grid;
+    place-items: center; */
+    gap: 0;
+    line-height: 1;
+}
+
+.widget-icon {
+    display: flex;
+    width: 6.25rem;
+    height: 4.5rem;
+}
+.widget-icon>img {
+    margin: auto;
+}
+
+.widget-text {
+    text-align: center;
+    width: 6.25rem;
+    height: 3.5rem;
+}
