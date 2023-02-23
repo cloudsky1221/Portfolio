@@ -14,9 +14,9 @@ function App() {
 
   return (
     <div className="App">
-      <Widget name="Resume" img={PDF}/>
-      <Widget name="Github Profile" img={GitHub}/>
-      <Widget name="Online Excel" img={Excel}/>
+      <Widget name="Resume" img={PDF} url="" file=""/>
+      <Widget name="Github Profile" img={GitHub} url="https://github.com/cloudsky1221"/>
+      <Widget name="Online Excel" img={Excel} url="" />
       <Glass title="Projects" width={10} height={8} />
       <Taskbar />
     </div>
