@@ -3,7 +3,6 @@ import "./Weather.css"
 import Clear from "./Icons/day-clear.png";
 import Fog from "./Icons/fog.png";
 import FreezingRain from "./Icons/freezing-rain.png";
-import HeavySnow from "./Icons/heavy-snow.png"
 import PartlyCloudy from "./Icons/partly-cloudy.png";
 import Rain from "./Icons/rain.png";
 import Snowfall from "./Icons/snowfall.png";
@@ -14,14 +13,7 @@ import { useState, useEffect } from "react"
 const Weather = () => {
     const [data, setData] = useState();
     const [timer, setTimer] = useState("");
-    // const [mood, setMood] = useState(true);
     const [icon, setIcon] = useState({title:"Not Known", img:Clear});
-
-    // setInterval(() => {
-    //     if (mood) setMood(false);
-    //     else setMood(true);
-    //     setTimer("")
-    // }, 60000);
 
     function icons(codeNumber){
         switch(codeNumber){
