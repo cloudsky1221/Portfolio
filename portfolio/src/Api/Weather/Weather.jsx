@@ -91,9 +91,9 @@ const Weather = () => {
         .then(res => res.json()).then(res => {setData(res.current_weather);icons(res.current_weather.weathercode)})
     }
 
-    useEffect(() => {
-        kall()
-    },[timer])
+    // useEffect(() => {
+    //     kall()
+    // },[timer])
 
     return (
         <div className="weather-wrapper">

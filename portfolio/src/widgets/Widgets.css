@@ -21,3 +21,27 @@
     width: 6.25rem;
     height: 3.5rem;
 }
+
+@media (max-width:400px) {
+    .widget-wrapper{
+        width: 3.125rem;
+        height: 4.6875rem;
+        padding: 0.2rem;
+        font-size: 0.8rem;
+        
+    }
+    .widget-icon {
+        width: 3.125rem;
+        height: 2rem;
+        /* background-color: rgba(255,255,255,0.6);
+        border-radius: 1rem; */
+    }
+    .widget-icon>a>img {
+        width: 2rem;
+        height: 2rem;
+    }
+    .widget-text {
+        width: 3.125rem;
+        height: 2.6875rem;
+    }
+}
