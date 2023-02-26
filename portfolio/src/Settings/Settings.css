@@ -1,0 +1,9 @@
+.settings-wrapper {
+    width: 10rem;
+    height: 10rem;
+    background-color: cornflowerblue;
+    position: absolute;
+    z-index: 10;
+    translate: 50% 50%;
+    /* top: 0; */
+}
